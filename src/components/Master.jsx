@@ -29,10 +29,8 @@ export default function Master() {
   };
 
   return (
-    <div className={`${style.container1} container`}>
-      <div
-        className={`${style.main} row bg-dark flex-wrap align-content-start`}
-      >
+    <div className={`${style.container1} bg-dark `}>
+      <div className={` row  `}>
         <div className="col-md-12 text-info text-center fw-bold border-start border-5 border-primary">
           <h3>search By name or number</h3>
         </div>

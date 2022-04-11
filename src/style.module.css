@@ -12,18 +12,12 @@
   justify-content: center;
   align-items: center;
 } */
-
 .container1 {
-  min-height: 915px;
-  width: 50%;
+  width: 400px;
+  height: 500px !important;
   overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-}
-.main {
-  width: 70%;
+  margin: 0 auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .listgroupsbg {
   background-color: black !important;
@@ -34,8 +28,9 @@
   font-size: 13px;
 }
 
-@media (max-width: 760px) {
-  .main {
-    width: 80%;
+@media only screen and (max-width: 430px) {
+  .container1 {
+    width: 90%;
+    height: 420px !important;
   }
 }
