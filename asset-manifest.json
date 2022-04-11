@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/contactSearchingByNameOrNumber/static/css/main.a1508eeb.css",
-    "main.js": "/contactSearchingByNameOrNumber/static/js/main.eac081f1.js",
+    "main.css": "/contactSearchingByNameOrNumber/static/css/main.7c218fb3.css",
+    "main.js": "/contactSearchingByNameOrNumber/static/js/main.98587f5e.js",
     "static/js/787.ad829988.chunk.js": "/contactSearchingByNameOrNumber/static/js/787.ad829988.chunk.js",
     "index.html": "/contactSearchingByNameOrNumber/index.html",
-    "main.a1508eeb.css.map": "/contactSearchingByNameOrNumber/static/css/main.a1508eeb.css.map",
-    "main.eac081f1.js.map": "/contactSearchingByNameOrNumber/static/js/main.eac081f1.js.map",
+    "main.7c218fb3.css.map": "/contactSearchingByNameOrNumber/static/css/main.7c218fb3.css.map",
+    "main.98587f5e.js.map": "/contactSearchingByNameOrNumber/static/js/main.98587f5e.js.map",
     "787.ad829988.chunk.js.map": "/contactSearchingByNameOrNumber/static/js/787.ad829988.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1508eeb.css",
-    "static/js/main.eac081f1.js"
+    "static/css/main.7c218fb3.css",
+    "static/js/main.98587f5e.js"
   ]
 }
