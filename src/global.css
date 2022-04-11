@@ -1,7 +1,10 @@
 body {
-  display: flex;
+  margin: 0px;
+  width: 100vw;
   height: 100vh;
-  justify-content: center;
+  overflow: auto;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-content: center;
 }
