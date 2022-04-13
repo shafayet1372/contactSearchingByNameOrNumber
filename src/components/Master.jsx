@@ -29,17 +29,19 @@ export default function Master() {
   };
 
   return (
-    <div className={`${style.container1} bg-dark `}>
-      <div className={` row  `}>
-        <div className="col-md-12 text-info text-center fw-bold border-start border-5 border-primary">
-          <h3>search By name or number</h3>
+    <div className={`${style.block}`}>
+      <div className={`${style.container1} bg-dark  container`}>
+        <div className={` row  `}>
+          <div className="col-md-12 text-info text-center fw-bold border-start border-5 border-primary">
+            <h3>search By name or number</h3>
+          </div>
+          <SearchController
+            value={search}
+            searchHandler={searchHandler}
+            totalContact={contacts.length}
+          />
+          {showData()}
         </div>
-        <SearchController
-          value={search}
-          searchHandler={searchHandler}
-          totalContact={contacts.length}
-        />
-        {showData()}
       </div>
     </div>
   );
